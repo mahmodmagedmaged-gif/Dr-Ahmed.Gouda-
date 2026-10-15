@@ -1,0 +1,141 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM VARIABLES
+   Dr. Ahmed Gouda Nageh | Medical Portfolio
+   Deep Navy: #07182B | Dark Blue: #0B2238 | Medical Teal: #10BFC1
+   Gold: #E6B84F | White: #FFFFFF | Soft Gray: #F3F6F8
+   ========================================================================== */
+
+:root {
+  /* Brand Master Palette */
+  --color-navy-950: #040e1b;
+  --color-navy-900: #07182B;
+  --color-navy-800: #0B2238;
+  --color-navy-700: #10304E;
+  --color-navy-600: #18446D;
+
+  --color-teal-500: #10BFC1;
+  --color-teal-400: #29D4D6;
+  --color-teal-600: #0A9B9D;
+  --color-teal-700: #087B7D;
+  --color-teal-glow: rgba(16, 191, 193, 0.25);
+
+  --color-gold-500: #E6B84F;
+  --color-gold-400: #F3D079;
+  --color-gold-600: #C9972E;
+  --color-gold-700: #9E741B;
+  --color-gold-glow: rgba(230, 184, 79, 0.22);
+
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #1EBE5D;
+  --color-facebook: #1877F2;
+
+  --color-white: #FFFFFF;
+  --color-soft-gray: #F3F6F8;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-300: #CBD5E1;
+  --color-slate-400: #94A3B8;
+  --color-slate-500: #64748B;
+  --color-slate-700: #334155;
+
+  /* Typography Stacks */
+  --font-arabic: 'Cairo', 'Tajawal', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-latin: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Cairo', var(--font-arabic);
+
+  /* Spacing Scale */
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --trans-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-base: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --header-height: 84px;
+  --container-max: 1280px;
+}
+
+/* --------------------------------------------------------------------------
+   DARK THEME (Default)
+   -------------------------------------------------------------------------- */
+[data-theme="dark"], :root:not([data-theme="light"]) {
+  --bg-body: #07182B;
+  --bg-surface: #0B2238;
+  --bg-surface-elevated: #10304E;
+  --bg-card: rgba(11, 34, 56, 0.78);
+  --bg-card-hover: rgba(16, 48, 78, 0.88);
+  --bg-overlay: rgba(4, 14, 27, 0.85);
+  --bg-input: #061627;
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-card: rgba(16, 191, 193, 0.22);
+  --border-card-hover: rgba(230, 184, 79, 0.5);
+  --border-gold: rgba(230, 184, 79, 0.4);
+
+  --text-primary: #FFFFFF;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-highlight: #10BFC1;
+  --text-accent: #E6B84F;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.55);
+  --shadow-glow-teal: 0 0 28px rgba(16, 191, 193, 0.3);
+  --shadow-glow-gold: 0 0 28px rgba(230, 184, 79, 0.25);
+
+  --glass-bg: rgba(7, 24, 43, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --glass-filter: blur(14px);
+}
+
+/* --------------------------------------------------------------------------
+   LIGHT THEME (High contrast, refined medical clinic aesthetic)
+   -------------------------------------------------------------------------- */
+[data-theme="light"] {
+  --bg-body: #F3F6F8;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8FAFC;
+  --bg-overlay: rgba(7, 24, 43, 0.6);
+  --bg-input: #F1F5F9;
+
+  --border-subtle: rgba(7, 24, 43, 0.1);
+  --border-card: rgba(16, 191, 193, 0.28);
+  --border-card-hover: #10BFC1;
+  --border-gold: #C9972E;
+
+  --text-primary: #07182B;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-highlight: #0A9B9D;
+  --text-accent: #B88628;
+
+  --shadow-sm: 0 2px 8px rgba(7, 24, 43, 0.06);
+  --shadow-md: 0 8px 24px rgba(7, 24, 43, 0.09);
+  --shadow-lg: 0 18px 45px rgba(7, 24, 43, 0.12);
+  --shadow-glow-teal: 0 0 24px rgba(16, 191, 193, 0.2);
+  --shadow-glow-gold: 0 0 24px rgba(201, 151, 46, 0.2);
+
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(7, 24, 43, 0.08);
+  --glass-filter: blur(12px);
+}

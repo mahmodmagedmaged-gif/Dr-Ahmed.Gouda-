@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="galBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#082236"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="16" fill="url(#galBg3)"/>
+
+  <!-- Multi-Parameter Vital Signs Monitor Screen -->
+  <rect x="150" y="70" width="500" height="360" rx="20" fill="#030D17" stroke="#10BFC1" stroke-width="3"/>
+  
+  <!-- ECG Trace in Vivid Teal -->
+  <path d="M 180 180 L 250 180 L 260 160 L 270 210 L 280 120 L 290 200 L 300 180 L 420 180 L 430 160 L 440 210 L 450 120 L 460 200 L 470 180 L 610 180" 
+        fill="none" stroke="#10BFC1" stroke-width="3"/>
+  <text x="590" y="150" font-family="'Inter', sans-serif" font-size="28" fill="#10BFC1" font-weight="800">72</text>
+  <text x="590" y="170" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8">نبض/دقيقة</text>
+
+  <!-- SpO2 Oxygen Saturation Trace -->
+  <path d="M 180 270 Q 220 240 250 270 T 320 270 T 390 270 T 460 270 T 530 270" fill="none" stroke="#38BDF8" stroke-width="3"/>
+  <text x="590" y="260" font-family="'Inter', sans-serif" font-size="28" fill="#38BDF8" font-weight="800">99%</text>
+  <text x="590" y="280" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8">تشبع الأكسجين</text>
+
+  <!-- Blood Pressure & Safety Parameters -->
+  <rect x="180" y="320" width="180" height="75" rx="8" fill="#0B2135"/>
+  <text x="200" y="350" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8">ضغط الدم NIBP</text>
+  <text x="200" y="380" font-family="'Inter', sans-serif" font-size="22" fill="#E6B84F" font-weight="700">120 / 78</text>
+
+  <rect x="400" y="320" width="180" height="75" rx="8" fill="#0B2135"/>
+  <text x="420" y="350" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8">حرارة الجسم TEMP</text>
+  <text x="420" y="380" font-family="'Inter', sans-serif" font-size="22" fill="#34D399" font-weight="700">36.8 °C</text>
+
+  <rect x="40" y="490" width="720" height="70" rx="12" fill="#07182B" fill-opacity="0.95" stroke="#10BFC1" stroke-width="1"/>
+  <text x="400" y="525" font-family="'Cairo', sans-serif" font-size="18" fill="#E6B84F" font-weight="700" text-anchor="middle">المراقبة المستمرة للمؤشرات الحيوية</text>
+  <text x="400" y="547" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">التزام صارم بأعلى بروتوكولات الأمان والسلامة داخل غرف العمليات</text>
+</svg>

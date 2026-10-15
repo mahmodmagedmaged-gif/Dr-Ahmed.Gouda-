@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#0E2C48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgEdu5)"/>
+  <text x="400" y="65" font-family="'Cairo', sans-serif" font-size="22" fill="#E6B84F" font-weight="800" text-anchor="middle">ركائز المتابعة الطبية والرعاية بعد الجراحة</text>
+
+  <!-- 4 Pillars of Recovery -->
+  <g transform="translate(60, 110)">
+    <rect width="150" height="240" rx="14" fill="#0D263D" stroke="#10BFC1" stroke-width="1.5"/>
+    <circle cx="75" cy="50" r="28" fill="#10BFC1" fill-opacity="0.2" stroke="#10BFC1" stroke-width="2"/>
+    <path d="M 65 50 L 72 57 L 85 44" stroke="#10BFC1" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="75" y="115" font-family="'Cairo', sans-serif" font-size="16" fill="#E6B84F" font-weight="700" text-anchor="middle">المتابعة الدورية</text>
+    <text x="75" y="150" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">الالتزام بمواعيد</text>
+    <text x="75" y="175" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">الزيارات المحددة</text>
+    <text x="75" y="200" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">للاطمئنان على الالتئام</text>
+  </g>
+
+  <g transform="translate(230, 110)">
+    <rect width="150" height="240" rx="14" fill="#0D263D" stroke="#10BFC1" stroke-width="1.5"/>
+    <circle cx="75" cy="50" r="28" fill="#10BFC1" fill-opacity="0.2" stroke="#10BFC1" stroke-width="2"/>
+    <circle cx="75" cy="50" r="14" fill="#E6B84F"/>
+    <text x="75" y="115" font-family="'Cairo', sans-serif" font-size="16" fill="#E6B84F" font-weight="700" text-anchor="middle">إدارة الأدوية</text>
+    <text x="75" y="150" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">تناول المسكنات</text>
+    <text x="75" y="175" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">والمضادات الحيوية</text>
+    <text x="75" y="200" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">حسب الجرعات المحددة</text>
+  </g>
+
+  <g transform="translate(400, 110)">
+    <rect width="150" height="240" rx="14" fill="#0D263D" stroke="#10BFC1" stroke-width="1.5"/>
+    <circle cx="75" cy="50" r="28" fill="#10BFC1" fill-opacity="0.2" stroke="#10BFC1" stroke-width="2"/>
+    <path d="M 68 45 L 82 55 M 82 45 L 68 55" stroke="#10BFC1" stroke-width="3" stroke-linecap="round"/>
+    <text x="75" y="115" font-family="'Cairo', sans-serif" font-size="16" fill="#E6B84F" font-weight="700" text-anchor="middle">الحركة التدريجية</text>
+    <text x="75" y="150" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">المشي الخفيف مبكراً</text>
+    <text x="75" y="175" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">لتنشيط الدورة الدموية</text>
+    <text x="75" y="200" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">وتجنب التجلطات</text>
+  </g>
+
+  <g transform="translate(570, 110)">
+    <rect width="150" height="240" rx="14" fill="#0D263D" stroke="#10BFC1" stroke-width="1.5"/>
+    <circle cx="75" cy="50" r="28" fill="#10BFC1" fill-opacity="0.2" stroke="#10BFC1" stroke-width="2"/>
+    <circle cx="75" cy="50" r="10" fill="#EF4444"/>
+    <text x="75" y="115" font-family="'Cairo', sans-serif" font-size="16" fill="#E6B84F" font-weight="700" text-anchor="middle">علامات التحذير</text>
+    <text x="75" y="150" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">التواصل العاجل عند</text>
+    <text x="75" y="175" font-family="'Cairo', sans-serif" font-size="13" fill="#E2E8F0" text-anchor="middle">حدوث حرارة مرتفعة</text>
+    <text x="75" y="200" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">أو ألم غير معتاد</text>
+  </g>
+
+  <rect x="100" y="390" width="600" height="60" rx="12" fill="#07182B" stroke="#E6B84F" stroke-width="1.5"/>
+  <text x="400" y="427" font-family="'Cairo', sans-serif" font-size="14" fill="#E2E8F0" font-weight="600" text-anchor="middle">
+    الرعاية بعد الجراحة لا تقل أهمية عن العملية نفسها لضمان أفضل نسب التعافي
+  </text>
+</svg>

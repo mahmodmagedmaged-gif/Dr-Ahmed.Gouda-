@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#0C263F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgEdu2)"/>
+
+  <!-- Gauge Arc -->
+  <path d="M 180 340 A 220 220 0 0 1 620 340" fill="none" stroke="#1E3A5F" stroke-width="36" stroke-linecap="round"/>
+  
+  <!-- Gauge colored sections -->
+  <path d="M 180 340 A 220 220 0 0 1 290 190" fill="none" stroke="#34D399" stroke-width="34" stroke-linecap="round"/>
+  <path d="M 290 190 A 220 220 0 0 1 510 190" fill="none" stroke="#FBBF24" stroke-width="34"/>
+  <path d="M 510 190 A 220 220 0 0 1 620 340" fill="none" stroke="#F87171" stroke-width="34" stroke-linecap="round"/>
+
+  <!-- Gauge Needle to BMI 35+ -->
+  <circle cx="400" cy="340" r="22" fill="#E6B84F"/>
+  <line x1="400" y1="340" x2="520" y2="190" stroke="#E6B84F" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="400" cy="340" r="10" fill="#07182B"/>
+
+  <!-- Labels -->
+  <text x="210" y="375" font-family="'Cairo', sans-serif" font-size="16" fill="#34D399" font-weight="700">وزن صحي (18.5 - 24.9)</text>
+  <text x="400" y="150" font-family="'Cairo', sans-serif" font-size="16" fill="#FBBF24" font-weight="700" text-anchor="middle">وزن زائد (25 - 29.9)</text>
+  <text x="590" y="375" font-family="'Cairo', sans-serif" font-size="16" fill="#F87171" font-weight="700">مؤشر السمنة الجراحية (35+)</text>
+
+  <!-- Bottom Guidelines Card -->
+  <rect x="120" y="405" width="560" height="65" rx="14" fill="#0B2238" stroke="#10BFC1" stroke-width="1.5"/>
+  <text x="400" y="443" font-family="'Cairo', sans-serif" font-size="15" fill="#E2E8F0" font-weight="600" text-anchor="middle">
+    التقييم الطبي الفردي والفحوصات السريرية هي المعيار لتحديد الأنسب لكل حالة
+  </text>
+  
+  <text x="400" y="70" font-family="'Cairo', sans-serif" font-size="22" fill="#E6B84F" font-weight="800" text-anchor="middle">معايير ومؤشرات اللجوء لجراحات السمنة</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#0D2D49"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgEdu3)"/>
+
+  <!-- Split Divider -->
+  <line x1="400" y1="40" x2="400" y2="460" stroke="#10BFC1" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
+
+  <!-- Left: Traditional Open Surgery -->
+  <text x="200" y="75" font-family="'Cairo', sans-serif" font-size="20" fill="#94A3B8" font-weight="700" text-anchor="middle">الجراحة المفتوحة التقليدية</text>
+  
+  <!-- Abdominal wall with large incision -->
+  <rect x="80" y="110" width="240" height="150" rx="16" fill="#14263D" stroke="#334155" stroke-width="2"/>
+  <line x1="200" y1="135" x2="200" y2="235" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/>
+  <!-- Stitch marks -->
+  <path d="M 185 155 L 215 155 M 185 185 L 215 185 M 185 215 L 215 215" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="200" y="295" font-family="'Cairo', sans-serif" font-size="15" fill="#EF4444" font-weight="600" text-anchor="middle">شق جراحي واسع (10-15 سم)</text>
+  <text x="200" y="335" font-family="'Cairo', sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">فترة استشفاء أطول بالمستشفى</text>
+  <text x="200" y="365" font-family="'Cairo', sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">أثر جراحي ملحوظ</text>
+
+  <!-- Right: Modern Laparoscopic Surgery -->
+  <text x="600" y="75" font-family="'Cairo', sans-serif" font-size="20" fill="#10BFC1" font-weight="700" text-anchor="middle">جراحة المناظير الدقيقة</text>
+  
+  <!-- Abdominal wall with 3 tiny keyhole trocars -->
+  <rect x="480" y="110" width="240" height="150" rx="16" fill="#0E334D" stroke="#10BFC1" stroke-width="2"/>
+  <circle cx="530" cy="185" r="8" fill="#10BFC1" stroke="#E6B84F" stroke-width="3"/>
+  <circle cx="600" cy="165" r="9" fill="#10BFC1" stroke="#E6B84F" stroke-width="3"/>
+  <circle cx="670" cy="185" r="8" fill="#10BFC1" stroke="#E6B84F" stroke-width="3"/>
+  
+  <!-- Laparoscopic Camera beam -->
+  <path d="M 600 174 L 560 250 L 640 250 Z" fill="#10BFC1" fill-opacity="0.2"/>
+  
+  <text x="600" y="295" font-family="'Cairo', sans-serif" font-size="15" fill="#10BFC1" font-weight="600" text-anchor="middle">فتحات متناهية الصغر (5-10 ملم)</text>
+  <text x="600" y="335" font-family="'Cairo', sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">ألم أقل وسرعة عودة للنشاط</text>
+  <text x="600" y="365" font-family="'Cairo', sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">نتائج جمالية متقدمة ودقة بصرية عالية</text>
+
+  <!-- Bottom Summary -->
+  <rect x="150" y="415" width="500" height="50" rx="12" fill="#07182B" stroke="#E6B84F" stroke-width="1.5"/>
+  <text x="400" y="446" font-family="'Cairo', sans-serif" font-size="15" fill="#E6B84F" font-weight="700" text-anchor="middle">يحدد الجراح التقنية المناسبة وفق المعايير الطبية لكل حالة</text>
+</svg>

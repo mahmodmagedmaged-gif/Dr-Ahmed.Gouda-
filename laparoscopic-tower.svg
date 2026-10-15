@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="galBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#09253B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="16" fill="url(#galBg2)"/>
+
+  <!-- Tower Stand Structure -->
+  <rect x="280" y="100" width="240" height="420" rx="14" fill="#0E2B45" stroke="#10BFC1" stroke-width="2"/>
+  <circle cx="310" cy="535" r="14" fill="#334155" stroke="#E6B84F" stroke-width="2"/>
+  <circle cx="490" cy="535" r="14" fill="#334155" stroke="#E6B84F" stroke-width="2"/>
+
+  <!-- 4K Ultra HD Surgical Monitor -->
+  <rect x="250" y="50" width="300" height="170" rx="10" fill="#05101D" stroke="#E6B84F" stroke-width="3"/>
+  <rect x="265" y="65" width="270" height="140" fill="#0A1E30"/>
+  <text x="400" y="130" font-family="'Inter', sans-serif" font-size="20" fill="#10BFC1" font-weight="800" text-anchor="middle">4K ULTRA HD</text>
+  <text x="400" y="160" font-family="'Cairo', sans-serif" font-size="14" fill="#E6B84F" text-anchor="middle">رؤية جراحية مجهرية فائقة الوضوح</text>
+
+  <!-- Unit 1: Insufflator -->
+  <rect x="300" y="240" width="200" height="60" rx="6" fill="#07182B" stroke="#10BFC1" stroke-width="1.5"/>
+  <text x="320" y="275" font-family="'Inter', sans-serif" font-size="14" fill="#E2E8F0">CO2 INSUFFLATOR</text>
+  <text x="460" y="275" font-family="'Inter', sans-serif" font-size="16" fill="#34D399" font-weight="700">14 mmHg</text>
+
+  <!-- Unit 2: High-Power Light Source -->
+  <rect x="300" y="320" width="200" height="60" rx="6" fill="#07182B" stroke="#10BFC1" stroke-width="1.5"/>
+  <text x="320" y="355" font-family="'Inter', sans-serif" font-size="14" fill="#E2E8F0">LED LIGHT SOURCE</text>
+  <circle cx="470" cy="350" r="10" fill="#E6B84F"/>
+
+  <!-- Unit 3: Harmonic / Electrosurgery Unit -->
+  <rect x="300" y="400" width="200" height="60" rx="6" fill="#07182B" stroke="#10BFC1" stroke-width="1.5"/>
+  <text x="320" y="435" font-family="'Inter', sans-serif" font-size="14" fill="#E2E8F0">ENERGY GENERATOR</text>
+
+  <rect x="40" y="490" width="720" height="70" rx="12" fill="#07182B" fill-opacity="0.95" stroke="#10BFC1" stroke-width="1"/>
+  <text x="400" y="525" font-family="'Cairo', sans-serif" font-size="18" fill="#E6B84F" font-weight="700" text-anchor="middle">برج جراحة المناظير المتقدم</text>
+  <text x="400" y="547" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">تجهيزات دقيقة تمكّن من إجراء التدخلات بأقل تدخل جراحي ممكن</text>
+</svg>

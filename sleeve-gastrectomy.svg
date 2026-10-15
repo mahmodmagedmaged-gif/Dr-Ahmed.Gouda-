@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#0F2F4A"/>
+    </linearGradient>
+    <linearGradient id="stomachGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5989B"/><stop offset="100%" stop-color="#B56576"/>
+    </linearGradient>
+    <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10BFC1"/><stop offset="100%" stop-color="#087E80"/>
+    </linearGradient>
+    <linearGradient id="goldLin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE5A4"/><stop offset="100%" stop-color="#E6B84F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgEdu1)"/>
+  
+  <!-- Subtle Grid & Medical Cross Background -->
+  <g opacity="0.05" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="125" x2="800" y2="125"/><line x1="0" y1="250" x2="800" y2="250"/><line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="200" y1="0" x2="200" y2="500"/><line x1="400" y1="0" x2="400" y2="500"/><line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+
+  <!-- Esophagus -->
+  <path d="M 360 40 L 360 120 Q 360 140 375 145" fill="none" stroke="#E5989B" stroke-width="32" stroke-linecap="round"/>
+
+  <!-- Resected Part (The Fundus / Outer curvature, dashed and translucent) -->
+  <path d="M 375 145 C 500 130 620 220 580 340 C 550 420 460 420 420 380" 
+        fill="none" stroke="url(#stomachGrad)" stroke-width="8" stroke-dasharray="10 8" opacity="0.6"/>
+  <path d="M 375 145 C 500 130 620 220 580 340 C 550 420 460 420 420 380 Z" 
+        fill="#B56576" fill-opacity="0.15"/>
+  <text x="560" y="270" font-family="'Cairo', sans-serif" font-size="16" fill="#F87171" font-weight="700">الجزء المستأصل (قاع المعدة)</text>
+
+  <!-- Preserved Gastric Sleeve (Narrow Tube) -->
+  <path d="M 375 145 Q 360 250 370 360 L 420 380 Q 400 260 400 145 Z" 
+        fill="url(#tubeGrad)" stroke="#10BFC1" stroke-width="3"/>
+
+  <!-- Staple Line (Gold Titanium Staples) -->
+  <path d="M 400 145 Q 400 260 420 380" fill="none" stroke="url(#goldLin)" stroke-width="4" stroke-dasharray="6 4"/>
+  <text x="240" y="270" font-family="'Cairo', sans-serif" font-size="16" fill="#10BFC1" font-weight="700">الأنبوب المتبقي (كم المعدة ~20%)</text>
+  <text x="440" y="380" font-family="'Cairo', sans-serif" font-size="14" fill="#E6B84F" font-weight="600">خط الدبابيس الجراحية</text>
+
+  <!-- Duodenum -->
+  <path d="M 370 360 Q 330 390 310 440" fill="none" stroke="#E5989B" stroke-width="26" stroke-linecap="round"/>
+
+  <!-- Title Badge -->
+  <rect x="40" y="35" width="230" height="50" rx="12" fill="#07182B" fill-opacity="0.85" stroke="#10BFC1" stroke-width="1.5"/>
+  <text x="155" y="66" font-family="'Cairo', sans-serif" font-size="17" fill="#E6B84F" font-weight="700" text-anchor="middle">توضيح تكميم المعدة بالمنظار</text>
+</svg>

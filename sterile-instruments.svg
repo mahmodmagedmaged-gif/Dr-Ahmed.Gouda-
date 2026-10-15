@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="galBg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#0E2D48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="16" fill="url(#galBg6)"/>
+
+  <!-- Instrument 1: Laparoscopic Grasper -->
+  <g transform="translate(150, 100) rotate(-15)">
+    <line x1="0" y1="50" x2="420" y2="50" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round"/>
+    <line x1="420" y1="50" x2="460" y2="40" stroke="#10BFC1" stroke-width="4"/>
+    <line x1="420" y1="50" x2="460" y2="60" stroke="#10BFC1" stroke-width="4"/>
+    <rect x="-40" y="30" width="50" height="40" rx="8" fill="#07182B" stroke="#E6B84F" stroke-width="3"/>
+  </g>
+
+  <!-- Instrument 2: Ultrasonic Harmonic Scalpel -->
+  <g transform="translate(180, 220) rotate(-10)">
+    <line x1="0" y1="50" x2="380" y2="50" stroke="#94A3B8" stroke-width="9" stroke-linecap="round"/>
+    <line x1="380" y1="50" x2="410" y2="45" stroke="#E6B84F" stroke-width="5"/>
+    <rect x="-60" y="25" width="70" height="50" rx="10" fill="#0B2238" stroke="#10BFC1" stroke-width="3"/>
+  </g>
+
+  <!-- Instrument 3: Clip Applier -->
+  <g transform="translate(160, 340) rotate(-5)">
+    <line x1="0" y1="50" x2="400" y2="50" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="410" cy="50" r="8" fill="#E6B84F"/>
+    <rect x="-50" y="30" width="60" height="40" rx="8" fill="#07182B" stroke="#CBD5E1" stroke-width="2.5"/>
+  </g>
+
+  <rect x="40" y="490" width="720" height="70" rx="12" fill="#07182B" fill-opacity="0.95" stroke="#10BFC1" stroke-width="1"/>
+  <text x="400" y="525" font-family="'Cairo', sans-serif" font-size="18" fill="#E6B84F" font-weight="700" text-anchor="middle">أدوات ومناظير جراحية دقيقة معقمة</text>
+  <text x="400" y="547" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">تطبيق بروتوكولات التعقيم الصارمة لحماية صحة وسلامة المرضى</text>
+</svg>

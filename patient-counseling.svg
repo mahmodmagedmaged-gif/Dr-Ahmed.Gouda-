@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="galBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07182B"/><stop offset="100%" stop-color="#0F2B48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="16" fill="url(#galBg4)"/>
+
+  <!-- Interactive Decision Diagram / Pathway -->
+  <g transform="translate(100, 100)">
+    <!-- Stage 1 -->
+    <circle cx="100" cy="130" r="45" fill="#0B2238" stroke="#10BFC1" stroke-width="3"/>
+    <text x="100" y="135" font-family="'Cairo', sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">التقييم الشامل</text>
+    
+    <!-- Arrow -->
+    <path d="M 155 130 L 245 130" stroke="#E6B84F" stroke-width="3" stroke-dasharray="6 4"/>
+    
+    <!-- Stage 2 -->
+    <circle cx="300" cy="130" r="50" fill="#0B2238" stroke="#E6B84F" stroke-width="3.5"/>
+    <text x="300" y="135" font-family="'Cairo', sans-serif" font-size="14" fill="#E6B84F" font-weight="700" text-anchor="middle">الخطة المخصصة</text>
+
+    <!-- Arrow -->
+    <path d="M 360 130 L 445 130" stroke="#E6B84F" stroke-width="3" stroke-dasharray="6 4"/>
+
+    <!-- Stage 3 -->
+    <circle cx="500" cy="130" r="45" fill="#0B2238" stroke="#10BFC1" stroke-width="3"/>
+    <text x="500" y="135" font-family="'Cairo', sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">المتابعة والرعاية</text>
+  </g>
+
+  <!-- Clinical Explanatory Card -->
+  <rect x="140" y="280" width="520" height="150" rx="16" fill="#0B1F33" stroke="#10BFC1" stroke-width="1.5"/>
+  <text x="400" y="325" font-family="'Cairo', sans-serif" font-size="18" fill="#E6B84F" font-weight="700" text-anchor="middle">مبدأ الشفافية وإشراك المريض في القرار العلاجي</text>
+  <text x="400" y="360" font-family="'Cairo', sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">شرح متكامل لفوائد الإجراء الجراحي والبدائل المتاحة</text>
+  <text x="400" y="390" font-family="'Cairo', sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">مع الإجابة الشاملة على كافة تساؤلات المريض وذويه</text>
+
+  <rect x="40" y="490" width="720" height="70" rx="12" fill="#07182B" fill-opacity="0.95" stroke="#10BFC1" stroke-width="1"/>
+  <text x="400" y="525" font-family="'Cairo', sans-serif" font-size="18" fill="#E6B84F" font-weight="700" text-anchor="middle">التثقيف الطبي والاستشارة الجراحية الواعية</text>
+  <text x="400" y="547" font-family="'Cairo', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">حق المريض الأصيل في فهم حالته والخطوات العلاجية المتبعة</text>
+</svg>
