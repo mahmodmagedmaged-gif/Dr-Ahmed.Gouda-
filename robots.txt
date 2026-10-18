@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://ahmedgoudanageh.com/sitemap.xml
+
+Sitemap: https://ahmed-gouda-nageh.github.io/sitemap.xml
